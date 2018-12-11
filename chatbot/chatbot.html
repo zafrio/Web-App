@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ZARONA Chatbot</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="lib/jquery.js"></script>
+  <script type="text/javascript" src="lib/datadumper.js"></script>
+  <script src="lib/rivescript.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link href="/EventManagement/css/style.css" rel='stylesheet' type='text/css' />
+</head>
+
+<body>
+   <nav class="navbar navbar-expand-md navbar-light" style="background: #2E4053;">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/EventManagement/index.php" style="color: #FFF;">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/EventManagement/index.php#about" style="color: #FFF;">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/EventManagement/index.php#team" style="color: #FFF;">Team</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/EventManagement/eventlist.php" style="color: #FFF;">Events</a>
+            </li>
+        </ul>
+    </div>
+    <div class="mx-auto order-0">
+        <a class="navbar-brand mx-auto" href="/EventManagement/index.php"><img src="/EventManagement/img/logo4.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="chatbot.html" style="color: #FFF;">Chat With Us!</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/EventManagement/login.php" style="color: #FFF;">Login</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/EventManagement/signup.php" style="color: #FFF;">Sign Up</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+  <div class='wrapper'>
+    <div id="dialogue"></div>
+    <form onSubmit="return sendMessage()">
+      <div class="text-box">
+        <input type="text" name="message" id="message" autocomplete="off" disabled placeholder="Please wait... loading...">
+        <input class="send-button" type="submit" value=">">
+      </div>
+    </form>
+  </div>
+<script src="code.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
++ start
+- Hello! I'm ZARONA.
+
++ (hello|hi|hey)[*]
+- What can I help you?
+
++ (create|how to create event|can I create event)
+- You need to register as organizer. Then you can create your event.
+
++ (login|How do I login|Where is login button|how to login)
+- You can see on the right top, there is Login button. You can press and login.
+
++ (register|how to register|where is register button|signup|how to signup)
+- You can see on the right top, there is Sign Up button. You can press and register.
+
++ (what type of event|type|event type)
+- There is two type of event. Conference and Training.
+
++ (who create this website|make this website|about this website)
+- Nabil Farhan, Raja Roza and Zafir Naim created this website.
+
++ (I need help|help|about)
+- In this website, you can create, view event and attend event.
+
++ (why make this website|why)
+- Our objective to connect people from all over the world.
+
++ (join|why i must join this website|is it worth)
+- An event is more than just a learning experience. By changing physical surroundings and exposing to a large group of people, all of whom are in the same mindset, people can feel recharged, energised and inspired.
+
++ (event|where event button|how to view event)
+- You can see on your left top, there is event button.
+
++ (cannot click|cannot press|cannot go through|cant click|can't click)
+- You need to login first to view specific page.
+
++ (other function|other function on this website)
+- You can view other comment on that event.
+
++ *
+- I don't understand <strong>"<star>"</stong>
